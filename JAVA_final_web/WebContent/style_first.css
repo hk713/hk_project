@@ -1,0 +1,98 @@
+body{
+  margin:0;
+}
+
+  a {
+    text-decoration : none;
+    font-family:sans-serif;
+    font-size:20px;
+  }
+  
+  .login{
+  	background: linear-gradient(to right, #fea89f,#f0da88,#fea89f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  h1{
+    font-size:45px;
+    text-align: center;
+    border-bottom:1px solid #efccbd;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    border-bottom:1px solid gray;
+    width:50px;
+    margin:0 auto;
+    text-align : center;
+    padding:20px;
+  }
+  #menu{
+  border:20px;
+  display : grid;
+  grid-template-columns: 1fr 1fr;
+  text-align : center;
+  }
+  #menu ol{
+  padding : 10px;
+  text-align : center;
+  }
+    logintable{
+ 	border:1px solid gray;
+ 	padding : 20px;
+ 	text-align : center;
+  }
+  image{
+  text-align : center;
+  }
+  body{
+  width : 480px; 
+  margin : 0 auto;
+  text-align : center;
+  }
+  
+  @media(max-width:800px){
+  #menu{
+  border:20px;
+  display : grid;
+  grid-template-columns: 1fr 1fr;
+  text-align : center;
+  }
+  #menu ol{
+  padding : 10px;
+  text-align : center;
+  }
+    #grid{
+      display:block;
+      text-align : center;
+    }
+    ol{
+      text-align : center;
+  }
+  h1{
+    border-bottom:none;
+    text-align : center;
+  }
+  logintable{
+ 	border:1px solid gray;
+ 	padding : 20px;
+ 	text-align : center;
+  }
+  image{
+  text-align : center;
+  }
+  body{
+  width : 480px; 
+  margin : 0 auto;
+  text-align : center;
+  }
+}
+
+#night_day{
+	background-color: transparent !important;
+    border-color: transparent;
+    border: none;
+	font-size:15px;
+	color:#636e72;
+}

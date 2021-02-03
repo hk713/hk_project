@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>60180874 김하경</title>
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+ <div class="form">
+   <h1>Sign Up</h1>
+   
+   <form action="Signup.jsp" method="post">
+   <table width="600" boder =""  bgcolor="#f8f2ec" cellspacing="1">
+ 
+    <tr>
+    	<th>이름</th>
+    	<td><input size="15" type="text" name="member_name" value="김하경">
+    </tr>
+    <tr>
+    	<th>학번</th>
+    	<td><input size="15" type="text" name="school_num" value="60180874">
+    </tr>
+    <tr>
+ 		<th>아이디</th>
+ 		<td><input size="15" type="text" name="id"></td>
+ 	</tr>
+ 	<tr>
+ 		<th>비밀번호</th>
+ 		<td><input size="15" type="password" name="password"></td>
+ 	</tr>
+ 	<tr>
+ 		<th>이메일</th>
+ 		<td><input size="15" type="text" name="email_h">&nbsp;@&nbsp;<input size="15" type="text" name="email_t">
+ 			<select name="mail">
+ 				<option value="">메일주소선택</option>
+ 				<option value="naver.com">naver.com</option>
+ 				<option value="google.com">google.com</option>
+ 				<option value="daum.com">daum.com</option>
+ 			</select>
+ 		</td>
+ 	</tr>
+ 	<tr>
+ 		<th>연락처</th>
+ 		<td>휴대전화
+ 				<select name="mobile">
+ 					<option value="010">010&nbsp;</option>
+ 					<option value="011">011&nbsp;</option>
+ 				</select>
+ 				-
+ 				<input size="5" type="text" name="mobile_h">
+ 				-
+ 				<input size="5" type="text" name="mobile_t">
+ 				<br>
+ 				일반전화
+ 				<select name="phone">
+ 					<option value="">선택</option>
+ 					<option value="02">02</option>
+ 					<option value="031">031</option>
+ 				</select>
+ 				-
+ 				<input size="5" type="text" name="phone_h">
+ 				-
+ 				<input size="5" type="text" name="phone_t"> 				
+ 		</td>
+ 	</tr>
+    <tr>
+ 		<th>우편번호</th>
+ 		<td>
+ 			<input size="15" type="text" name="home_number">
+ 			<input type="button" onclick="DaumPostcode()" value="우편번호 찾기">
+ 		</td>
+ 	</tr>
+ 	 <tr>
+ 		<th>주소</th>
+ 		<td>
+ 			<input size="60" type="text" name="home_h">
+ 		</td>
+ 	</tr>
+ 	 <tr>
+ 		<th>정보수신 여부</th>
+ 		<td>서비스 및 이벤트 소식을 <input type="checkbox" name="news" value="email">email로 수신하겠습니다<br>
+        	<input type="checkbox" name="news" value="sms">SMS로 수신하겠습니다
+        </td>
+ 	</tr>
+  
+    </table>
+    <br><br>
+    <div style="text-align: center">
+      <input type = "submit" value = "Submit">
+   </div>
+   </form>
+  </div>
+
+</body>
+</html>

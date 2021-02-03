@@ -1,0 +1,54 @@
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+}
+
+h1{
+	font-family:"Dynalight";
+	text-align:center;
+}
+
+th{
+	margin-top:20px;
+	font-family:맑은 고딕;
+	font-size:10pt;
+	padding: 15px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+
+td, input, select,option{
+	font-family:맑은 고딕;
+	font-size:10pt;
+}
+
+td{
+	 width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+body{
+	background-image:url("D:/imgs/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button{
+	width:60px;
+	border:none;
+	padding: 5px;
+	text-align:center;
+	font-size:15pt;
+	font-family:"Amatic SC";
+	background-color:#fdecec;
+	background-color: rgba( 255, 255, 255, 0.5 );
+	
+}
